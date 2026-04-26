@@ -1,0 +1,246 @@
+body{
+    background-image: url(./assets/images/SuzukiGSX-8sandHondaHornet-1005.webp);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*logo, start*/
+#logo{
+    border: 0;
+    border-radius: 50%;
+    height: 15%;
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #logo {
+        height: 120px;
+        position: static;
+        align-self: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #logo {
+        height: 135px;
+        position: static;
+        align-self: center;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    #logo {
+        height: 150px;
+        position: static;
+        align-self: center;
+    }
+}
+/*logo, end*/
+
+.infoContainer {
+    margin-top: 3%;
+}
+
+.heading {
+    margin-bottom: 1%;
+    font-weight: 800;
+    font-family: "Geom", sans-serif;
+    font-size: 5rem;
+    font-style: oblique;
+    color: rgb(7, 90, 197);
+    width: fit-content;
+    justify-self: center;
+    padding: 1%;
+    border-radius: 30%;
+    text-align: center;
+}
+
+.subheading {
+    width: fit-content;
+    justify-self: center;
+    font-family: "Geom", sans-serif;
+    margin-bottom: 0;
+    font-size: 2.2rem;
+    font-weight: 130;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+}
+
+.items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.item {
+    background-color: rgba(120, 190, 209, 0.507);
+    padding: 2%;
+    border-radius: 35%;
+}
+
+.download a{
+    width: fit-content;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.7%;
+    font-family: "Geom", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    font-style: oblique;
+    color: rgb(255, 251, 0);
+}
+
+@media (max-width: 768px) {
+    .infoContainer {
+        position: static;
+        align-self: center;
+        text-align: center;
+        font-size: 70%;
+        background-color: rgba(120, 190, 209, 0.507);
+    }
+    .heading {
+        margin-bottom: 7%;
+        font-size: 40px;
+        color: aliceblue;
+        background-color: rgba(120, 190, 209, 0.644);
+    }
+    .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        column-gap: 2%;
+    }
+    .item {
+        background-color: rgba(120, 190, 209, 0.603);
+    }
+}
+
+@media (max-width: 1200px) {
+    .infoContainer {
+       position: static;
+        align-self: center;
+        text-align: center;
+        background-color: rgba(120, 190, 209, 0.507);
+    }
+    .heading {
+        padding-top: 3%;
+        padding-bottom: 5%;
+        color: aliceblue;
+        background-color: rgba(120, 190, 209, 0.644);
+    }
+    .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        column-gap: 2%;
+    }
+    .item {
+        background-color: rgba(120, 190, 209, 0.603);
+    }
+}
+
+@media (max-width: 1700px) {
+    .infoContainer {
+        width: fit-content;
+        text-align: center;
+        margin-left: 32%;
+        margin-right: 32%;
+        margin-bottom: 1%;
+        padding-top: 3%;
+        padding-left: 2%;
+        padding-right: 3%;
+        background-color: rgba(120, 190, 209, 0.507);
+    }
+    .heading {
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+    .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 2%;
+
+    }
+    .item {
+        background-color: rgba(120, 190, 209, 0.603);
+    }
+}
+
+.contactButton {
+    justify-self: right;
+    margin-right: 9%;
+}
+
+@media (max-width: 768px) {
+    
+    .contactButton {
+        justify-self: center;
+        align-self: center;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    
+    .contactButton {
+        justify-self: center;
+        align-self: center;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 1700px) {
+    
+    .contactButton {
+        justify-self: center;
+        align-self: center;
+        margin: 0;
+    }
+
+}
+
+.btn {
+    background-color: rgb(27, 137, 211);
+    margin-top: 1%;
+    margin-bottom: 10%;
+    font-size: 200%;
+    font-family: "Geom", sans-serif;
+    font-style: italic;
+    border: 2px solid aliceblue;
+    text-decoration: none;
+}
+
+
+/*footer, start*/
+.footer{
+    position: fixed;
+    bottom: 0; /* Positions it at the bottom */
+    width: 100%; /* Makes it span the full width */
+    align-self: center;
+}
+
+@media (max-width: 1700px) {
+    .footer {
+        position: static;
+    }
+}
+
+.footer .text-center{
+    background-color:rgba(173, 216, 230, 0.836);
+    font-family: "Geom", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+}
+/*footer, end*/

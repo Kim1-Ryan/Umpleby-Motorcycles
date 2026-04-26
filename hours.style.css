@@ -1,0 +1,165 @@
+body{
+    background-image: url(./assets/images/nikos-nasiou-Ja_j2CQDX7Y-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*logo, start*/
+#logo{
+    border: 0;
+    border-radius: 50%;
+    height: 15%;
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #logo {
+        height: 120px;
+        position: static;
+        align-self: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #logo {
+        height: 135px;
+        position: static;
+        align-self: center;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    #logo {
+        height: 150px;
+        position: static;
+        align-self: center;
+    }
+}
+/*logo, end*/
+
+.infoContainer {
+    margin-top: 4rem;
+    
+}
+
+.heading {
+    margin-bottom: 1%;
+    font-weight: 800;
+    font-family: "Geom", sans-serif;
+    font-size: 4rem;
+    font-style: oblique;
+    color: rgb(7, 90, 197);
+    text-align: center;
+}
+
+.subheading {
+    width: fit-content;
+    justify-self: center;
+    border-bottom: 1px solid;
+    font-family: "Geom", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(28, 96, 185);
+}
+
+.times {
+    width: fit-content;
+    justify-self: center;
+    margin-bottom: 0.7%;
+    font-family: "Geom", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+    .infoContainer {
+        position: static;
+        align-self: center;
+        text-align: center;
+        font-size: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: rgba(98, 183, 253, 0.897);
+    }
+    .heading {
+        margin-bottom: 7%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .infoContainer {
+       position: static;
+        align-self: center;
+        background-color: rgba(98, 183, 253, 0.897);
+    }
+    .heading {
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+}
+
+@media (max-width: 1700px) {
+    .infoContainer {
+        width: fit-content;
+        margin-left: 32%;
+        margin-right: 32%;
+        margin-bottom: 5%;
+        padding-top: 3%;
+        padding-left: 2%;
+        padding-right: 3%;
+        background-color: rgba(98, 183, 253, 0.897);
+    }
+    .heading {
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+}
+
+.buttons {
+    justify-content: space-around;
+    display: flex;
+}
+
+.btn {
+    background-color: rgb(27, 137, 211);
+    margin-top: 5%;
+    margin-bottom: 7%;
+    font-size: 180%;
+    font-family: "Geom", sans-serif;
+    font-style: italic;
+    border: 2px solid aliceblue;
+    text-decoration: none;
+}
+
+
+/*footer, start*/
+.footer{
+    position: fixed;
+    bottom: 0; /* Positions it at the bottom */
+    width: 100%; /* Makes it span the full width */
+    align-self: center;
+}
+
+@media (max-width: 1700px) {
+    .footer {
+        position: static;
+    }
+}
+
+.footer .text-center{
+    background-color:rgba(173, 216, 230, 0.836);
+    font-family: "Geom", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+}
+/*footer, end*/

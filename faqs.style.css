@@ -1,0 +1,163 @@
+body{
+    background-image: url(./assets/images/d4a101634951011b68df788b85af8e11.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.suzuki {
+   position: fixed;
+   justify-content: right;
+   right: 30px;
+   padding: 0;
+   width: 20%;
+}
+
+.suzukiBanner {
+    width: 30%;
+    justify-items: right;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+}
+
+/*logo, start*/
+#logo{
+    border: 0;
+    border-radius: 50%;
+    height: 15%;
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 768px) {
+    #logo {
+        height: 120px;
+        position: relative;
+        margin-left: 40%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #logo {
+        height: 135px;
+        justify-content: center;
+        align-self: center;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    #logo {
+        height: 150px;
+        justify-content: center;
+        align-self: center;
+    }
+}
+/*logo, end*/
+
+.headingContainer {
+    justify-self: center;
+    text-align: center;
+    margin-top: 2.3%;
+}
+
+.heading {
+    font-weight: 800;
+    font-family: "Geom", sans-serif;
+    font-size: 500%;
+    font-style: oblique;
+    color: rgb(28, 126, 255);
+    text-align: center;
+}
+
+.mainContainer {
+    text-align: center;
+}
+
+.middle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.each {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    background-color: rgba(6, 51, 150, 0.836);
+    margin: 3px;
+    padding: 0.5%;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.question {
+    font-weight: 600;
+    font-family: "Geom", sans-serif;
+    font-size: 200%;
+    font-style: italic;
+    color: rgb(85, 158, 253);
+}
+
+.answer {
+    font-weight: 400;
+    font-family: "Geom", sans-serif;
+    font-size: 110%;
+    color: rgb(255, 254, 183);
+}
+
+.each .nav-item{
+    border: 1px solid rgb(76, 99, 206);
+    border-radius: 20%;
+    background-color:#2b66e6;
+    color: white;
+    width: fit-content;
+    justify-self: center;
+    padding: 1%;
+    font-family: "Geom", sans-serif;
+}
+
+.nav-item:hover{
+    background-color: rgb(180, 215, 255);
+    color: rgb(5, 34, 165);
+}
+
+@media (max-width: 768px) {
+    .headingContainer {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+    }
+}
+
+
+/*footer, start*/
+.footer{
+    position: static;
+    margin-top: 1%;
+    bottom: 0; /* Positions it at the bottom */
+    width: 100%; /* Makes it span the full width */
+    align-self: flex-end;
+}
+
+.footer .text-center{
+    background-color:rgba(173, 216, 230, 0.836);
+    font-family: "Geom", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+}
+/*footer, end*/

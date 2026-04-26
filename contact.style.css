@@ -1,0 +1,189 @@
+body{
+    background-image: url(./assets/images/beach\ view.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.suzuki {
+   position: fixed;
+   justify-content: right;
+   right: 30px;
+   padding: 0;
+   width: 20%;
+}
+
+.suzukiBanner {
+    width: 30%;
+    justify-items: right;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+}
+
+/*brand, start*/
+
+/*firstLook, start*/
+.firstLook{
+    justify-items: center; 
+    margin-top: 4%;
+}
+
+
+/*logo, start*/
+#logo{
+    border: 0;
+    border-radius: 50%;  
+    height: 200px;
+}
+
+@media (max-width: 600px) {
+    #logo {
+        height: 120px; /* Smaller size for tablets/mobile */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    #logo {
+        height: 155px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #logo {
+        height: 180px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    #logo {
+        height: 220px;
+    }
+}
+/*logo, end*/
+
+
+/*headings, start*/
+.mainHeading{
+    margin-bottom: 2%;
+    font-family: "Geom", sans-serif;
+    font-size: 8rem;
+    font-weight: 900;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(3, 69, 156);
+}
+
+.subheading{
+    margin-bottom: 2%;
+    border-bottom: 1px solid;
+    font-family: "Geom", sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    color: rgb(7, 90, 197);
+}
+
+@media (max-width: 600px) {
+    .mainHeading {
+        font-size: 2.2rem;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 0;
+        
+    }
+    .subheading {
+        font-size: 1.5rem;
+        text-align: center;
+        width: fit-content;
+        justify-self: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .mainHeading {
+        font-size: 4.4rem;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+    .subheading {
+        font-size: 2.5rem;
+        text-align: center;
+        width: fit-content;
+        justify-self: center;
+    }
+}
+/*headings, end*/
+
+/*for both columns*/
+.contactCategories {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+@media (max-width: 768px) {
+    .contactCategories {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*column 1*/
+.details {
+    justify-self: center;
+    text-align: center;
+    font-family: "Geom", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: rgb(62, 111, 175);
+}
+
+/*column 2*/
+.socials {
+    justify-self: center;
+    text-align: center;
+    justify-self: center;
+    text-align: center;
+    font-family: "Geom", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: rgb(62, 111, 175);
+}
+
+.info p {
+    background-color: rgb(186, 223, 255);
+    width: fit-content;
+    justify-self: center;
+    font-size: 150%;
+}
+
+/*footer, start*/
+.footer{
+    position: fixed;
+    bottom: 0; /* Positions it at the bottom */
+    width: 100%; /* Makes it span the full width */
+    align-self: center;
+}
+
+@media (max-width: 1700px) {
+    .footer {
+        position: static;
+    }
+}
+
+.footer .text-center{
+    background-color:rgba(173, 216, 230, 0.836);
+    font-family: "Geom", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+}
+/*footer, end*/

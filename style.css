@@ -1,0 +1,293 @@
+body{
+    background-image: url(./assets/images/beach\ view.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.suzuki {
+   position: fixed;
+   justify-content: right;
+   right: 30px;
+   padding: 0;
+   width: 20%;
+}
+
+.suzukiBanner {
+    width: 30%;
+    justify-items: right;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+}
+
+/*brand, start*/
+
+/*firstLook, start*/
+.firstLook{
+    justify-items: center; 
+    margin-top: 4%;
+}
+
+/*logo, start*/
+#logo{
+    border: 0;
+    border-radius: 50%;  
+    height: 300px;
+}
+
+@media (max-width: 600px) {
+    #logo {
+        height: 120px; /* Smaller size for tablets/mobile */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    #logo {
+        height: 155px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #logo {
+        height: 180px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    #logo {
+        height: 220px;
+    }
+}
+/*logo, end*/
+
+
+/*headings, start*/
+.mainHeading{
+    margin-top: 2%;
+    font-family: "Geom", sans-serif;
+    font-size: 8rem;
+    font-weight: 900;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(3, 69, 156);
+}
+
+.subheading{
+    margin-bottom: 2%;
+    font-family: "Geom", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(7, 90, 197);
+}
+
+@media (max-width: 600px) {
+    .mainHeading {
+        font-size: 2.35rem;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+    .subheading {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .mainHeading {
+        font-size: 6rem;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+    .subheading {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+/*headings, end*/
+
+/*firstLook, end*/
+
+
+/*main menu, start*/
+.mainMenu .nav{
+    justify-self: center;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 3%;
+}
+
+#menu .nav-item{
+    border: 1px solid rgb(76, 99, 206);
+    border-radius: 20%;
+    background-color:rgb(166, 191, 206);
+    gap: 2px;
+}
+
+#menu .nav-item:hover{
+    background-color: rgb(180, 215, 255);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .mainMenu {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    
+    .mainMenu .nav{
+        justify-content: space-evenly;
+    }
+}
+/*main menu, end*/
+
+
+/*booking button, start*/
+.bookingButton-container{
+    justify-self: center;
+    margin-top: 4%;
+}
+
+#bookings-btn{
+    background-color: rgb(5, 87, 141);
+    border: 0;
+}
+
+#bookings-link{
+    display: flex;
+    text-decoration: none; /*removes link underline*/
+}
+
+#bookings-link button:hover{
+    background-color: rgb(87, 131, 214);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .bookingButton-container {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+/*booking button, end*/
+
+/*brand, end*/
+
+
+/*carousel, start*/
+#myCarousel {
+    margin-top: 9rem;
+    margin-bottom: 10rem;
+}
+
+@media (max-width: 768px) {
+    #myCarousel {
+        display: none !important;
+    }
+}
+
+/*slide images*/
+#slide {
+    justify-self: center;
+}
+
+/*slide captions, start*/
+#caption1 {
+    justify-self: left;
+    text-align: left;
+}
+
+#caption2 {
+    justify-self: right;
+    text-align: right;
+}
+
+#caption3 {
+    justify-self: center;
+    text-align: center;
+}
+
+.carousel-caption {
+    margin-bottom: 25%;
+    font-family: "Geom", sans-serif;
+}
+
+#slideHeading {
+    width: fit-content;
+    background-color: rgb(240, 248, 255);
+    padding: 1rem;
+    color: cornflowerblue;
+    font-size: 400%;
+}
+/*slide captions, end*/
+
+
+/*slide call-to-action buttons, start*/
+#slide-button {
+    text-decoration: none; /*removes link underline*/
+}
+
+#slide-button button:hover{
+    background-color: rgb(87, 131, 214);
+    color: white;
+}
+/*slide call-to-action buttons, start*/
+
+/*carousel, end*/
+
+
+/*footer, start*/
+.footer{
+    position: static;
+    bottom: 0; /* Positions it at the bottom */
+    width: 100%; /* Makes it span the full width */
+    align-self: center;
+}
+
+.footer .text-center{
+    background-color:rgba(173, 216, 230, 0.452);
+    font-family: "Geom", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+}
+
+#tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(34, 112, 202, 0.425);
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 1;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(34, 112, 202, 0.425) transparent transparent transparent;
+}
+
+#tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/*footer, end*/

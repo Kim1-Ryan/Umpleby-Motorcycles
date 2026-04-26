@@ -1,0 +1,224 @@
+body{
+    background-image: url(./assets/images/d4a101634951011b68df788b85af8e11.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.suzuki {
+   position: fixed;
+   justify-content: right;
+   right: 30px;
+   padding: 0;
+   width: 20%;
+}
+
+.suzukiBanner {
+    width: 30%;
+    justify-items: right;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+}
+
+/*logo, start*/
+#logo{
+    border: 0;
+    border-radius: 50%;
+    height: 15%;
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 768px) {
+    #logo {
+        height: 120px;
+        position: relative;
+        margin-left: 40%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #logo {
+        height: 135px;
+        justify-content: center;
+        align-self: center;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    #logo {
+        height: 150px;
+        justify-content: center;
+        align-self: center;
+    }
+}
+/*logo, end*/
+
+
+.aboutBusiness {
+    justify-self: center;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 70%;
+    margin-bottom: 3%;
+}
+
+.heading {
+    margin-bottom: 1%;
+    font-weight: 800;
+    font-family: "Geom", sans-serif;
+    font-size: 4rem;
+    font-style: oblique;
+    color: rgb(35, 130, 253);
+    text-align: center;
+}
+
+.summary {
+    font-family: "Geom", sans-serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    border-radius: 6%;
+    font-size: 1.6rem;
+}
+
+.allesAnders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+    justify-self: left;
+    width: 42%;
+    margin-left: 6%;
+    margin-right: 6%;
+    align-content: center;
+}
+
+@media (max-width: 768px) {
+    .aboutBusiness {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .allesAnders {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+    }
+}
+
+.aboutOwner {
+    justify-self: center;
+    text-align: center;
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .aboutOwner {
+        justify-self: center;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+    }
+}
+
+.subheading {
+    margin-bottom: 1%;
+    justify-self: center;
+    width: 250px;
+    font-family: "Geom", sans-serif;
+    font-size: 1.8rem;
+    font-style: oblique;
+    color: rgb(7, 90, 197);
+    background-color: rgba(240, 248, 255, 0.822);
+    border-radius: 47%;
+    padding: 0.3rem;
+}
+
+#ownerSummary {
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0.822);
+    color: rgb(7, 90, 197);
+}
+
+.meetTheOwner {
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin-top: 25px;
+    border: none;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .meetTheOwner {
+        justify-self: center;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+#jarred {
+    background-color: rgb(27, 137, 211);
+    margin-top: 5%;
+    font-size: 160%;
+    font-family: "Geom", sans-serif;
+    font-style: italic;
+    border: 2px solid aliceblue;
+}
+
+#meetJarred {
+    text-decoration: none; /*removes link underline*/
+}
+
+#meetJarred button:hover{
+    background-color: rgb(48, 100, 196);
+    color: white;
+    border: 2px solid cadetblue;
+}
+
+@media (max-width: 768px) {
+    .jarredButton {
+        justify-self: center;
+        align-content: center;
+        width: 100%;
+    }
+    .picture {
+        justify-self: center;
+        align-content: center;
+        width: 50%;
+    }
+}
+
+/*footer, start*/
+.footer{
+    position: relative;
+    margin-top: 5%;
+    bottom: 0; /* Positions it at the bottom */
+    width: 100%; /* Makes it span the full width */
+    align-self: flex-end;
+}
+
+.footer .text-center{
+    background-color:rgba(173, 216, 230, 0.836);
+    font-family: "Geom", sans-serif;
+    font-weight: 900;
+    font-style: bold;
+}
+/*footer, end*/
