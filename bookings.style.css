@@ -1,5 +1,5 @@
 body{
-    background-image: url(./assets/images/workshop.jpg);
+    background-image: url(./workshop.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
