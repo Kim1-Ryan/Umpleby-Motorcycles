@@ -124,7 +124,7 @@ function Home() {
             your motorcycle ready for the road with technical expertise and
             genuine Suzuki parts.
           </p>
-          <Button to="/bookings">Request a workshop booking ↗</Button>
+          <Button to="/bookings">Request a workshop booking</Button>
         </div>
       </section>
     </>
