@@ -130,7 +130,7 @@ function Home() {
     </>
   );
 }
-function ProductImage({ name, image }) {
+function ProductImage({ name, image, suzukiUrl, suzukiLinkUnavailable }) {
   const [failed, setFailed] = useState(false);
   const previewRef = useRef(null);
   return failed ? (
@@ -167,6 +167,21 @@ function ProductImage({ name, image }) {
           </button>
           <img src={asset(image)} alt={name} />
           <p>{name}</p>
+          {suzukiUrl && (
+            <a
+              className="button image-preview-more"
+              href={suzukiUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              See more pictures on Suzuki SA ↗
+            </a>
+          )}
+          {suzukiLinkUnavailable && (
+            <p className="image-preview-unavailable">
+              More pictures are currently unavailable on Suzuki SA.
+            </p>
+          )}
         </div>
       </dialog>
     </>

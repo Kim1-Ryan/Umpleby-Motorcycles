@@ -476,6 +476,17 @@ nav > a.active {
   font-weight: 600;
   color: var(--ink);
 }
+.image-preview-more {
+  display: flex;
+  width: fit-content;
+  margin: 18px auto 0;
+  text-align: center;
+}
+.image-preview .image-preview-unavailable {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  font-weight: 400;
+}
 body:has(.image-preview[open]) {
   overflow: hidden;
 }
