@@ -267,7 +267,7 @@ nav > a.active {
 .trust-strip {
   display: flex;
   justify-content: center;
-  gap: clamp(44px, 6vw, 96px);
+  gap: clamp(52px, 7vw, 112px);
   padding: 16px 5%;
   background: #102c4b;
   border-block: 1px solid #102c4b;
