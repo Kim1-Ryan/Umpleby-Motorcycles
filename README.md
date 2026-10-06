@@ -32,3 +32,11 @@ Booking requests use the email approval and calendar workflow in `server/google-
 Company application files were missing in the original site, so these now direct customers to the team. Contact details, map links, and FAQ statements remain sourced from the original site and should be confirmed by the business before publishing. Live booking submissions are not part of local verification.
 
 Original booking storage: https://docs.google.com/spreadsheets/d/1McQMauMperb8sq1qRS3NveZzUsJy7PoWrOBMDVXuXV8/edit
+
+## GitHub Pages
+
+The React/Vite source must be built before publishing. Serving the repository root directly loads `/src/main.jsx`, which cannot run on GitHub Pages.
+
+In the repository's Settings → Pages → Build and deployment, set Source to **GitHub Actions**. The checked-in `.github/workflows/deploy.yml` builds on every push to `main` and publishes only `dist/`, with the repository URL used as Vite's base path. You can also run it manually from Actions → Deploy website to GitHub Pages → Run workflow.
+
+The website URL is https://kim1-ryan.github.io/Umpleby-Motorcycles/. Wait for a successful Actions deployment before opening it. Do not enable a separate Jekyll/root-directory deployment. Booking email/calendar activation remains separate; it is not required to load the website.
