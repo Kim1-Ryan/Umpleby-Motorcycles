@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useLayoutEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import catalogue from "./catalogue.json";
 const asset = (name) =>
@@ -51,6 +51,19 @@ function Categories() {
   );
 }
 function Home() {
+  const heroRef = useRef(null);
+  useLayoutEffect(() => {
+    const hero = heroRef.current;
+    const updateHeight = () => {
+      const top = hero.getBoundingClientRect().top + window.scrollY;
+      hero.style.setProperty("--hero-top", `${top}px`);
+    };
+    const observer = new ResizeObserver(updateHeight);
+    observer.observe(document.querySelector("header"));
+    observer.observe(hero.previousElementSibling);
+    updateHeight();
+    return () => observer.disconnect();
+  }, []);
   return (
     <>
       <div className="trust-strip">
@@ -58,7 +71,7 @@ function Home() {
         <span>Genuine Suzuki parts</span>
         <span>Workshop expertise</span>
       </div>
-      <section className="hero">
+      <section className="hero" ref={heroRef}>
         <img
           className="hero-suzuki-banner"
           src={asset("suzuki banner.png")}
