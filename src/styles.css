@@ -88,23 +88,24 @@ header {
 .brand {
   display: flex;
   align-items: center;
-  gap: 13px;
+  gap: 16px;
   color: var(--ink);
   font-weight: 900;
-  font-size: 1.3rem;
+  font-size: 1.55rem;
   letter-spacing: 0.03em;
   line-height: 1.15;
 }
 .brand img {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
   border-radius: 50%;
   object-fit: contain;
 }
 .brand small {
   display: block;
-  font-weight: 500;
-  font-size: 0.67rem;
+  font-weight: 600;
+  font-size: 0.8rem;
   letter-spacing: 0.22em;
   margin-top: 6px;
 }
@@ -694,11 +695,15 @@ footer {
     gap: 15px;
   }
   .brand img {
-    width: 48px;
-    height: 48px;
+    width: 76px;
+    height: 76px;
   }
   .brand {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    gap: 10px;
+  }
+  .brand small {
+    font-size: 0.65rem;
   }
   .menu-toggle {
     display: block;
