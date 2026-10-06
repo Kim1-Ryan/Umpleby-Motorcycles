@@ -6,7 +6,9 @@
       "name": "Suzuki GSX150F (blue, white)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-150f/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-150f/",
+      "previewWidth": 650,
+      "previewHeight": 428
     },
     {
       "id": "bikes-1",
@@ -14,7 +16,9 @@
       "name": "Suzuki GSX150F (black)",
       "price": "2026",
       "status": "Currently Unavailable",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-150f/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-150f/",
+      "previewWidth": 795,
+      "previewHeight": 455
     },
     {
       "id": "bikes-2",
@@ -22,7 +26,9 @@
       "name": "Suzuki GSX150F (green, grey)",
       "price": "2026",
       "status": "Only 1 left",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-150f/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-150f/",
+      "previewWidth": 650,
+      "previewHeight": 428
     },
     {
       "id": "bikes-3",
@@ -30,7 +36,9 @@
       "name": "Suzuki GSX150D (blue)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx150d/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx150d/",
+      "previewWidth": 890,
+      "previewHeight": 535
     },
     {
       "id": "bikes-4",
@@ -38,7 +46,9 @@
       "name": "Suzuki GSX150D (black, red)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx150d/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx150d/",
+      "previewWidth": 917,
+      "previewHeight": 537
     },
     {
       "id": "bikes-5",
@@ -46,7 +56,9 @@
       "name": "Suzuki GSX250F (black)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gixxer-sf-250/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gixxer-sf-250/",
+      "previewWidth": 2048,
+      "previewHeight": 1365
     },
     {
       "id": "bikes-6",
@@ -54,7 +66,9 @@
       "name": "Suzuki GSX250F (red)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gixxer-sf-250/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gixxer-sf-250/",
+      "previewWidth": 870,
+      "previewHeight": 590
     },
     {
       "id": "bikes-7",
@@ -62,7 +76,9 @@
       "name": "Suzuki GSX250D (black)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gixxer-250/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gixxer-250/",
+      "previewWidth": 2048,
+      "previewHeight": 1365
     },
     {
       "id": "bikes-8",
@@ -70,7 +86,9 @@
       "name": "Suzuki V-Strom 250SX (black)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/dual-purpose-bikes/v-strom-250-sx/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/dual-purpose-bikes/v-strom-250-sx/",
+      "previewWidth": 640,
+      "previewHeight": 360
     },
     {
       "id": "bikes-9",
@@ -78,7 +96,9 @@
       "name": "Suzuki V-Strom 250SX (red)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/dual-purpose-bikes/v-strom-250-sx/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/dual-purpose-bikes/v-strom-250-sx/",
+      "previewWidth": 640,
+      "previewHeight": 360
     },
     {
       "id": "bikes-10",
@@ -86,7 +106,9 @@
       "name": "Suzuki V-Strom 250SX (yellow)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/dual-purpose-bikes/v-strom-250-sx/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/dual-purpose-bikes/v-strom-250-sx/",
+      "previewWidth": 640,
+      "previewHeight": 360
     },
     {
       "id": "bikes-11",
@@ -94,7 +116,9 @@
       "name": "Suzuki GSX750 (white, blue)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/gsx-r750/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/gsx-r750/",
+      "previewWidth": 750,
+      "previewHeight": 484
     },
     {
       "id": "bikes-12",
@@ -102,7 +126,11 @@
       "name": "Suzuki GSX750 (black, red)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/gsx-r750/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/gsx-r750/",
+      "previewWidth": 2560,
+      "previewHeight": 1651,
+      "previewImage": "bikes-12-full.jpg",
+      "previewSource": "https://suzukimotorcycle.co.za/wp-content/uploads/2026/01/GSX-R750-Parent-Page--scaled.jpg"
     },
     {
       "id": "bikes-13",
@@ -110,7 +138,9 @@
       "name": "Suzuki GSX-8R (blue)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8fr/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8fr/",
+      "previewWidth": 360,
+      "previewHeight": 190
     },
     {
       "id": "bikes-14",
@@ -118,7 +148,9 @@
       "name": "Suzuki GSX-8R (black, red)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8fr/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8fr/",
+      "previewWidth": 360,
+      "previewHeight": 190
     },
     {
       "id": "bikes-15",
@@ -126,7 +158,9 @@
       "name": "Suzuki GSX-8R (orange)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8fr/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8fr/",
+      "previewWidth": 360,
+      "previewHeight": 190
     },
     {
       "id": "bikes-16",
@@ -134,7 +168,11 @@
       "name": "Suzuki GSX-8R (white)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8fr/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8fr/",
+      "previewWidth": 2560,
+      "previewHeight": 1707,
+      "previewImage": "bikes-16-full.jpg",
+      "previewSource": "https://suzukimotorcycle.co.za/wp-content/uploads/2026/02/8R-Parent-Page--scaled.jpg"
     },
     {
       "id": "bikes-17",
@@ -142,7 +180,9 @@
       "name": "Suzuki GSX-8S (blue)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s8s/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s8s/",
+      "previewWidth": 640,
+      "previewHeight": 360
     },
     {
       "id": "bikes-18",
@@ -150,7 +190,9 @@
       "name": "Suzuki GSX-8S (black)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s8s/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s8s/",
+      "previewWidth": 640,
+      "previewHeight": 360
     },
     {
       "id": "bikes-19",
@@ -158,7 +200,9 @@
       "name": "Suzuki GSX-8S (white)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s8s/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s8s/",
+      "previewWidth": 640,
+      "previewHeight": 360
     },
     {
       "id": "bikes-20",
@@ -166,7 +210,9 @@
       "name": "Suzuki GSX-8T (Candy-Burnt-Gold)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8t/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8t/",
+      "previewWidth": 1024,
+      "previewHeight": 530
     },
     {
       "id": "bikes-21",
@@ -174,7 +220,9 @@
       "name": "Suzuki GSX-8T (Metallic-Matte-Black)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8t/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8t/",
+      "previewWidth": 1024,
+      "previewHeight": 530
     },
     {
       "id": "bikes-22",
@@ -182,7 +230,9 @@
       "name": "Suzuki GSX-8T (Metallic-Matte-Steel-Green)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8t/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8t/",
+      "previewWidth": 1024,
+      "previewHeight": 530
     },
     {
       "id": "bikes-23",
@@ -190,7 +240,9 @@
       "name": "Suzuki GSX-8TT (Glass-Sparkle-Black)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8tt/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8tt/",
+      "previewWidth": 750,
+      "previewHeight": 484
     },
     {
       "id": "bikes-24",
@@ -198,7 +250,9 @@
       "name": "Suzuki GSX-8TT (Pearl-Matte-Shadow-Green)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8tt/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-8tt/",
+      "previewWidth": 750,
+      "previewHeight": 484
     },
     {
       "id": "bikes-25",
@@ -206,7 +260,9 @@
       "name": "Suzuki GSX-R1000A (blue, white)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/gsx-r1000a-l7/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/gsx-r1000a-l7/",
+      "previewWidth": 2048,
+      "previewHeight": 1365
     },
     {
       "id": "bikes-26",
@@ -214,7 +270,9 @@
       "name": "Suzuki GSX-R1000A (red, black)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/gsx-r1000a-l7/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/gsx-r1000a-l7/",
+      "previewWidth": 2048,
+      "previewHeight": 1365
     },
     {
       "id": "bikes-27",
@@ -222,7 +280,9 @@
       "name": "Suzuki GSX-R1000RA (blue, white)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/gsx-r1000ral7/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/gsx-r1000ral7/",
+      "previewWidth": 2048,
+      "previewHeight": 1152
     },
     {
       "id": "bikes-28",
@@ -230,7 +290,9 @@
       "name": "Suzuki GSX-S1000GX (silver)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s1000gx/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s1000gx/",
+      "previewWidth": 640,
+      "previewHeight": 360
     },
     {
       "id": "bikes-29",
@@ -238,7 +300,9 @@
       "name": "Suzuki GSX-S1000GX (blue)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s1000gx/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s1000gx/",
+      "previewWidth": 640,
+      "previewHeight": 360
     },
     {
       "id": "bikes-30",
@@ -246,7 +310,9 @@
       "name": "Suzuki GSX-S1000GX (black)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s1000gx/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/street-bikes/gsx-s1000gx/",
+      "previewWidth": 640,
+      "previewHeight": 360
     },
     {
       "id": "bikes-31",
@@ -254,7 +320,9 @@
       "name": "Suzuki Hayabusa (blue, white)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/hayabusa-2021/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/hayabusa-2021/",
+      "previewWidth": 360,
+      "previewHeight": 183
     },
     {
       "id": "bikes-32",
@@ -262,7 +330,9 @@
       "name": "Suzuki Hayabusa (black, red)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/hayabusa-2021/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/hayabusa-2021/",
+      "previewWidth": 750,
+      "previewHeight": 484
     },
     {
       "id": "bikes-33",
@@ -270,7 +340,9 @@
       "name": "Suzuki Hayabusa (grey, orange)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/hayabusa-2021/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/hayabusa-2021/",
+      "previewWidth": 750,
+      "previewHeight": 484
     },
     {
       "id": "bikes-34",
@@ -278,7 +350,9 @@
       "name": "Suzuki Hayabusa (white)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/hayabusa-2021/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/super-sport-bikes/hayabusa-2021/",
+      "previewWidth": 750,
+      "previewHeight": 484
     },
     {
       "id": "bikes-35",
@@ -286,7 +360,9 @@
       "name": "Suzuki Burgman (blue)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/burgman-street/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/burgman-street/",
+      "previewWidth": 2048,
+      "previewHeight": 1365
     },
     {
       "id": "bikes-36",
@@ -294,7 +370,9 @@
       "name": "Suzuki Burgman (white)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/burgman-street/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/burgman-street/",
+      "previewWidth": 2048,
+      "previewHeight": 1365
     },
     {
       "id": "bikes-37",
@@ -302,7 +380,9 @@
       "name": "Suzuki Burgman (black)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/burgman-street/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/burgman-street/",
+      "previewWidth": 2048,
+      "previewHeight": 1365
     },
     {
       "id": "bikes-38",
@@ -310,7 +390,9 @@
       "name": "Suzuki Burgman (Moonstone grey)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/burgman-street/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/burgman-street/",
+      "previewWidth": 2048,
+      "previewHeight": 1365
     },
     {
       "id": "bikes-39",
@@ -318,7 +400,9 @@
       "name": "Suzuki Avenis (grey, red/orange)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/avenis/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/avenis/",
+      "previewWidth": 887,
+      "previewHeight": 664
     },
     {
       "id": "bikes-40",
@@ -326,7 +410,9 @@
       "name": "Suzuki Avenis (white)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/avenis/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/scooters/avenis/",
+      "previewWidth": 750,
+      "previewHeight": 484
     },
     {
       "id": "bikes-41",
@@ -334,7 +420,9 @@
       "name": "Suzuki LT-A400D/LT-F400F (red)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/quad-bikes/lt-a400f-lt-f400f/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/quad-bikes/lt-a400f-lt-f400f/",
+      "previewWidth": 320,
+      "previewHeight": 180
     },
     {
       "id": "bikes-42",
@@ -342,7 +430,9 @@
       "name": "Suzuki LT-A400D/LT-F400F (green)",
       "price": "2026",
       "status": "Available",
-      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/quad-bikes/lt-a400f-lt-f400f/"
+      "suzukiUrl": "https://suzukimotorcycle.co.za/bikes/quad-bikes/lt-a400f-lt-f400f/",
+      "previewWidth": 320,
+      "previewHeight": 180
     },
     {
       "id": "bikes-43",
@@ -350,7 +440,9 @@
       "name": "Suzuki LT-A650XL (red)",
       "price": "2026",
       "status": "Available",
-      "suzukiLinkUnavailable": true
+      "suzukiLinkUnavailable": true,
+      "previewWidth": 320,
+      "previewHeight": 180
     }
   ],
   "gear": [
@@ -359,63 +451,81 @@
       "image": "i71 blue, red, white.webp",
       "name": "HJC i71 Helmet (blue, red, white)",
       "price": "R 2870.00",
-      "status": "In Stock"
+      "status": "In Stock",
+      "previewWidth": 500,
+      "previewHeight": 500
     },
     {
       "id": "gear-1",
       "image": "i71 grey, white, yellow.avif",
       "name": "HJC i71 Helmet (grey, white, yellow)",
       "price": "R 2870.00",
-      "status": "Out of Stock"
+      "status": "Out of Stock",
+      "previewWidth": 150,
+      "previewHeight": 150
     },
     {
       "id": "gear-2",
       "image": "i71 matte yellow, orange, red.avif",
       "name": "HJC i71 Helmet (matte yellow, orange, red)",
       "price": "R 2870.00",
-      "status": "Only 1 left"
+      "status": "Only 1 left",
+      "previewWidth": 150,
+      "previewHeight": 150
     },
     {
       "id": "gear-3",
       "image": "flip-up x4.jpg",
       "name": "MT Genesis Flip-Up SV Helmet (black/white)",
       "price": "R 2710.00",
-      "status": "In Stock"
+      "status": "In Stock",
+      "previewWidth": 1000,
+      "previewHeight": 1000
     },
     {
       "id": "gear-4",
       "image": "alpine gloves.jpg",
       "name": "Alpine Gloves (black, armored knuckles)",
       "price": "R 1500.00",
-      "status": "In Stock"
+      "status": "In Stock",
+      "previewWidth": 1000,
+      "previewHeight": 564
     },
     {
       "id": "gear-5",
       "image": "alpine hoodie.jpg",
       "name": "Alpine Hoodie (black)",
       "price": "R 3200.00",
-      "status": "Currently UnIn Stock"
+      "status": "Currently UnIn Stock",
+      "previewWidth": 931,
+      "previewHeight": 999
     },
     {
       "id": "gear-6",
       "image": "bull-it men's tactical jeans.webp",
       "name": "Bull-It Men's Tactical Jeans",
       "price": "R 1700.00",
-      "status": "Only 1 left"
+      "status": "Only 1 left",
+      "previewWidth": 1011,
+      "previewHeight": 1011
     },
     {
       "id": "gear-7",
       "image": "dainese_nexus2_boots_red_750x750.jpg",
       "name": "Dainese Nexus 2 Boots",
       "price": "R 4200.00",
-      "status": "In Stock"
+      "status": "In Stock",
+      "previewWidth": 750,
+      "previewHeight": 750
     },
     {
       "id": "gear-8",
       "image": "rst men's boots.jpg",
       "name": "RST Boots",
       "price": "R 3300.00",
-      "status": "In Stock"
+      "status": "In Stock",
+      "previewWidth": 750,
+      "previewHeight": 750
     }
   ],
   "accessories": [
@@ -424,42 +534,54 @@
       "image": "top box, blk.jpg",
       "name": "Top Box (black)",
       "price": "R 2990.00",
-      "status": "In Stock"
+      "status": "In Stock",
+      "previewWidth": 1200,
+      "previewHeight": 1200
     },
     {
       "id": "accessories-1",
       "image": "top box, silver.jpg",
       "name": "Top Box (silver)",
       "price": "R 2990.00",
-      "status": "Out of Stock"
+      "status": "Out of Stock",
+      "previewWidth": 1200,
+      "previewHeight": 1200
     },
     {
       "id": "accessories-2",
       "image": "waterproof bike-cover.jpg",
       "name": "Waterproof Bike Cover (with tyre lock)",
       "price": "R 720.00",
-      "status": "Only 1 left"
+      "status": "Only 1 left",
+      "previewWidth": 1000,
+      "previewHeight": 1000
     },
     {
       "id": "accessories-3",
       "image": "windscreen, small.jpg",
       "name": "Windscreen extender",
       "price": "R 1400.00",
-      "status": "In Stock"
+      "status": "In Stock",
+      "previewWidth": 1200,
+      "previewHeight": 1200
     },
     {
       "id": "accessories-4",
       "image": "2-piece paddock stand.jpg",
       "name": "2-Piece Paddock Stand",
       "price": "R 2300.00",
-      "status": "Out of Stock"
+      "status": "Out of Stock",
+      "previewWidth": 1200,
+      "previewHeight": 1200
     },
     {
       "id": "accessories-5",
       "image": "bluetooth helmet headset.jpg",
       "name": "Bluetooth Helmet-Headset",
       "price": "R 780.00",
-      "status": "In Stock"
+      "status": "In Stock",
+      "previewWidth": 1200,
+      "previewHeight": 1200
     }
   ],
   "faqs": [

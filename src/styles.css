@@ -465,10 +465,13 @@ nav > a.active {
   color: var(--ink);
 }
 .image-preview img {
-  width: 100%;
-  height: min(65svh, 650px);
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: min(65svh, 650px);
   object-fit: contain;
-  margin-block: 16px;
+  margin: 16px auto;
 }
 .image-preview p {
   margin: 0;

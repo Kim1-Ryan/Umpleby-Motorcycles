@@ -130,7 +130,16 @@ function Home() {
     </>
   );
 }
-function ProductImage({ name, image, suzukiUrl, suzukiLinkUnavailable }) {
+function ProductImage({
+  name,
+  image,
+  previewImage,
+  previewWidth,
+  previewHeight,
+  suzukiUrl,
+  suzukiLinkUnavailable,
+}) {
+  const [previewOpen, setPreviewOpen] = useState(false);
   const [failed, setFailed] = useState(false);
   const previewRef = useRef(null);
   return failed ? (
@@ -140,7 +149,10 @@ function ProductImage({ name, image, suzukiUrl, suzukiLinkUnavailable }) {
       <button
         className="product-image"
         aria-label={`Enlarge image of ${name}`}
-        onClick={() => previewRef.current.showModal()}
+        onClick={() => {
+          setPreviewOpen(true);
+          previewRef.current.showModal();
+        }}
       >
         <img
           src={asset(image)}
@@ -152,6 +164,7 @@ function ProductImage({ name, image, suzukiUrl, suzukiLinkUnavailable }) {
       <dialog
         className="image-preview"
         ref={previewRef}
+        onClose={() => setPreviewOpen(false)}
         aria-label={name}
         onClick={(event) => {
           if (event.target === event.currentTarget) previewRef.current.close();
@@ -165,7 +178,14 @@ function ProductImage({ name, image, suzukiUrl, suzukiLinkUnavailable }) {
           >
             Close ✕
           </button>
-          <img src={asset(image)} alt={name} />
+          {previewOpen && (
+            <img
+              src={asset(previewImage || image)}
+              alt={name}
+              width={previewWidth}
+              height={previewHeight}
+            />
+          )}
           <p>{name}</p>
           {suzukiUrl && (
             <a
