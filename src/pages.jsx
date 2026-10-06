@@ -549,7 +549,7 @@ function Booking() {
         <form className="panel" onSubmit={submit}>
           <p className="form-note">Fields marked * are required.</p>
           <fieldset disabled={state === "sending"}>
-            <legend>01 / Your details</legend>
+            <legend>Your details</legend>
             <div className="field-grid">
               {field("firstName", "First name(s)", "text", true, {
                 autoComplete: "given-name",
@@ -566,7 +566,7 @@ function Booking() {
             </div>
           </fieldset>
           <fieldset disabled={state === "sending"}>
-            <legend>02 / Your motorcycle</legend>
+            <legend>Your motorcycle</legend>
             <div className="field-grid">
               {field("make", "Make", "text", true, { list: "makes" })}
               {field("model", "Model")}
@@ -593,7 +593,7 @@ function Booking() {
             </datalist>
           </fieldset>
           <fieldset disabled={state === "sending"}>
-            <legend>03 / Your booking</legend>
+            <legend>Your booking</legend>
             <label>
               Type of booking *
               <select name="bookingType" required defaultValue="">
