@@ -269,8 +269,8 @@ nav > a.active {
   justify-content: space-around;
   gap: 20px;
   padding: 16px 5%;
-  background: rgb(0 62 145 / 92%);
-  border-block: 1px solid rgb(0 62 145 / 45%);
+  background: #0b223d;
+  border-block: 1px solid #0b223d;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
