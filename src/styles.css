@@ -256,8 +256,8 @@ nav > a.active {
   justify-content: space-around;
   gap: 20px;
   padding: 16px 5%;
-  background: linear-gradient(110deg, #3474b9, #2869b0 55%, #3778bd);
-  border-block: 1px solid #2b6db3;
+  background: rgb(7 90 197 / 82%);
+  border-block: 1px solid rgb(7 90 197 / 35%);
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
