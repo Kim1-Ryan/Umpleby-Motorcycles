@@ -476,12 +476,11 @@ const bookingTypes = [
   "Battery, replacement",
   "Other",
 ];
-const defaultEndpoint =
-  "https://script.google.com/macros/s/AKfycbw6wCvSB6F6nwjgxZmzmXZCCR-3OsfKDG5y9H0AEExakFp8_3FgUlBAB0NXa_DEygQsVA/exec";
 function Booking() {
   const [state, setState] = useState("idle");
   const [message, setMessage] = useState("");
   const submitting = useRef(false);
+  const request = useRef(null);
   const now = new Date();
   const minimum = new Date(now.getTime() - now.getTimezoneOffset() * 60000)
     .toISOString()
@@ -490,7 +489,20 @@ function Booking() {
     e.preventDefault();
     if (submitting.current) return;
     const form = e.currentTarget;
+    const endpoint = import.meta.env.VITE_BOOKING_ENDPOINT;
+    if (!endpoint) {
+      setState("error");
+      setMessage(
+        "Online booking is being set up. Please call 031 303 8323 or email admin@motocycle.co.za to request your booking.",
+      );
+      return;
+    }
     const body = new FormData(form);
+    const signature = JSON.stringify([...body.entries()]);
+    if (!request.current || request.current.signature !== signature) {
+      request.current = { signature, id: crypto.randomUUID() };
+    }
+    body.set("requestId", request.current.id);
     if (new Date(body.get("dateTime")) < new Date()) {
       setState("error");
       setMessage("Please choose a future date and time.");
@@ -500,18 +512,20 @@ function Booking() {
     setState("sending");
     setMessage("Sending your request…");
     try {
-      const response = await fetch(
-        import.meta.env.VITE_BOOKING_ENDPOINT || defaultEndpoint,
-        { method: "POST", body, signal: AbortSignal.timeout(20000) },
-      );
+      const response = await fetch(endpoint, {
+        method: "POST",
+        body,
+        signal: AbortSignal.timeout(20000),
+      });
       if (!response.ok) throw Error();
       const data = await response.json();
       if (data.result !== "success") throw Error();
       setState("success");
       setMessage(
-        "Thank you! Your request has been sent. Please wait for our team to confirm your booking.",
+        "Thank you! Your request has been emailed to our team. We will email you once your booking is confirmed.",
       );
       form.reset();
+      request.current = null;
     } catch {
       setState("error");
       setMessage(
@@ -547,6 +561,15 @@ function Booking() {
           <Link to="/faqs">Frequently asked questions ↗</Link>
         </aside>
         <form className="panel" onSubmit={submit}>
+          <label className="booking-honeypot" aria-hidden="true">
+            Website
+            <input
+              name="website"
+              type="text"
+              tabIndex={-1}
+              autoComplete="off"
+            />
+          </label>
           <p className="form-note">Fields marked * are required.</p>
           <fieldset disabled={state === "sending"}>
             <legend>Your details</legend>

@@ -27,7 +27,7 @@ Publish the contents of `dist/` to your static host. Relative asset paths and ha
 - `src/main.jsx`: React pages, shared navigation, catalogue filters, enquiry links and booking form.
 - `src/styles.css`: responsive design and shared styling.
 
-The form preserves the original Google Apps Script endpoint and field names. Set `VITE_BOOKING_ENDPOINT` in `.env.local` to override it (this URL is public client configuration). The endpoint must accept FormData and return JSON `{ "result": "success" }` with browser-compatible CORS. Successful requests are described as requests awaiting confirmation. A timeout or failed response asks the customer to call before retrying, since a request may have reached the server.
+Booking requests use the email approval and calendar workflow in `server/google-apps-script/`. See `server/google-apps-script/SETUP.md` for deployment. Set `VITE_BOOKING_ENDPOINT` to that deployment's `/exec` URL, then rebuild the site. Without that setting, the form directs customers to the dealership instead of sending to the old storage endpoint. Requests are emailed to admin@motocycle.co.za; approval checks calendar conflicts, creates the event with 1-day, 1-hour and 10-minute popup reminders, and emails the customer. Live email/calendar delivery requires Google deployment and is not part of local verification.
 
 Company application files were missing in the original site, so these now direct customers to the team. Contact details, map links, and FAQ statements remain sourced from the original site and should be confirmed by the business before publishing. Live booking submissions are not part of local verification.
 

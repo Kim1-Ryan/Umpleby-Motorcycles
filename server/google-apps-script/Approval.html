@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+  <head>
+    <base target="_top" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: #14263d;
+        background: #edf3fa;
+        margin: 0;
+        padding: 24px;
+      }
+      main {
+        max-width: 650px;
+        margin: auto;
+        padding: 28px;
+        background: white;
+        border-radius: 8px;
+      }
+      pre {
+        white-space: pre-wrap;
+        font: inherit;
+        line-height: 1.6;
+      }
+      label {
+        display: block;
+        margin: 18px 0;
+      }
+      input,
+      button {
+        font: inherit;
+        padding: 12px;
+        box-sizing: border-box;
+      }
+      button {
+        background: #075ac5;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:disabled {
+        opacity: 0.6;
+      }
+      #result {
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Review workshop booking</h1>
+      <pre><?= details ?></pre>
+      <p>
+        Status:
+        <?= status ?>
+      </p>
+      <p>
+        Check that the slot is suitable. Confirming adds this booking to the
+        workshop calendar and emails the customer. All times are South African
+        time.
+      </p>
+      <form id="approval">
+        <input type="hidden" id="request" value="<?= id ?>" /><input
+          type="hidden"
+          id="token"
+          value="<?= token ?>"
+        />
+        <label
+          >Confirmed date and time
+          <input
+            id="slot"
+            type="datetime-local"
+            value="<?= data.dateTime ?>"
+            required
+        /></label>
+        <label
+          >Duration (minutes)
+          <input
+            id="minutes"
+            type="number"
+            min="10"
+            max="480"
+            value="<?= minutes ?>"
+            required
+        /></label>
+        <button id="confirm" type="submit">
+          Confirm booking and add to calendar
+        </button>
+      </form>
+      <p id="result" role="status" aria-live="polite"></p>
+      <script>
+        document
+          .getElementById("approval")
+          .addEventListener("submit", function (e) {
+            e.preventDefault();
+            const button = document.getElementById("confirm"),
+              result = document.getElementById("result");
+            button.disabled = true;
+            result.textContent = "Confirming…";
+            google.script.run
+              .withSuccessHandler(function (response) {
+                result.textContent = response.message;
+                button.textContent = "Booking confirmed";
+              })
+              .withFailureHandler(function (error) {
+                result.textContent = error.message;
+                button.disabled = false;
+              })
+              .confirmBooking(
+                document.getElementById("request").value,
+                document.getElementById("token").value,
+                document.getElementById("slot").value,
+                document.getElementById("minutes").value,
+              );
+          });
+      </script>
+    </main>
+  </body>
+</html>
