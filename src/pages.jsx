@@ -54,6 +54,11 @@ function Home() {
   return (
     <>
       <section className="hero">
+        <img
+          className="hero-suzuki-banner"
+          src={asset("suzuki banner.png")}
+          alt="Suzuki"
+        />
         <div className="hero-copy">
           <span className="eyebrow">
             DURBAN, SOUTH AFRICA · AUTHORISED SUZUKI DEALERSHIP

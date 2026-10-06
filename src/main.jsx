@@ -47,10 +47,6 @@ function App() {
       >
         Skip to content
       </a>
-      <div className="topbar">
-        <span>Authorised Suzuki Motorcycles dealership · Durban</span>
-        <a href="tel:+27313038323">031 303 8323 ↗</a>
-      </div>
       <header>
         <Link className="brand" to="/">
           <img src={asset("logo.png")} alt="Umpleby Motorcycles home" />

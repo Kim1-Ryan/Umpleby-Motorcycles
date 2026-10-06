@@ -64,18 +64,6 @@ p {
   outline: 3px solid #df740d;
   outline-offset: 5px;
 }
-.topbar {
-  padding: 10px 5%;
-  background: #073779;
-  color: #e0ecff;
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.76rem;
-  letter-spacing: 0.02em;
-}
-.topbar a {
-  color: white;
-}
 header {
   display: flex;
   justify-content: space-between;
@@ -91,13 +79,13 @@ header {
   gap: 16px;
   color: var(--ink);
   font-weight: 900;
-  font-size: 1.55rem;
+  font-size: 2.1rem;
   letter-spacing: 0.03em;
   line-height: 1.15;
 }
 .brand img {
-  width: 100px;
-  height: 100px;
+  width: 124px;
+  height: 124px;
   flex-shrink: 0;
   border-radius: 50%;
   object-fit: contain;
@@ -105,7 +93,7 @@ header {
 .brand small {
   display: block;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 1.05rem;
   letter-spacing: 0.22em;
   margin-top: 6px;
 }
@@ -191,6 +179,14 @@ nav > a.active {
     linear-gradient(90deg, #f0f6fbf2, #eff6fad6),
     url("/assets/beach%20view.jpg") center/cover;
   z-index: 0;
+}
+.hero-suzuki-banner {
+  position: absolute;
+  top: 22px;
+  right: 5%;
+  width: 66px;
+  height: auto;
+  z-index: 2;
 }
 .hero-copy,
 .hero-bike {
@@ -640,9 +636,16 @@ footer {
   .hero {
     padding-inline: calc((100% - 1240px) / 2);
   }
-  header,
-  .topbar {
+  header {
     padding-inline: calc((100% - 1240px) / 2);
+  }
+}
+@media (min-width: 701px) and (max-width: 1100px) {
+  header {
+    flex-wrap: wrap;
+  }
+  nav {
+    margin-left: auto;
   }
 }
 @media (max-width: 950px) {
@@ -683,27 +686,21 @@ footer {
   }
 }
 @media (max-width: 700px) {
-  .topbar {
-    font-size: 0.65rem;
-  }
-  .topbar > span {
-    max-width: 210px;
-  }
   header {
     flex-wrap: wrap;
     padding: 13px 5%;
     gap: 15px;
   }
   .brand img {
-    width: 76px;
-    height: 76px;
+    width: 90px;
+    height: 90px;
   }
   .brand {
-    font-size: 1.15rem;
+    font-size: 1.35rem;
     gap: 10px;
   }
   .brand small {
-    font-size: 0.65rem;
+    font-size: 0.72rem;
   }
   .menu-toggle {
     display: block;
@@ -731,8 +728,11 @@ footer {
   }
   .hero {
     grid-template-columns: 1fr;
-    padding: 40px 5% 28px;
+    padding: 110px 5% 28px;
     min-height: auto;
+  }
+  .hero-suzuki-banner {
+    width: 50px;
   }
   .hero h1 {
     font-size: 3.5rem;
