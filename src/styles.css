@@ -256,14 +256,16 @@ nav > a.active {
   justify-content: space-around;
   gap: 20px;
   padding: 23px 5%;
-  background: linear-gradient(110deg, #d9e9fc, #bdd8f7 55%, #dceafa);
-  border-block: 1px solid #aac9ed;
-  font-size: 0.8rem;
-  color: #123f78;
+  background: linear-gradient(110deg, #3474b9, #2869b0 55%, #3778bd);
+  border-block: 1px solid #2b6db3;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
 }
 .trust-strip span:before {
   content: "✓";
-  color: var(--blue);
+  color: #ffffff;
   margin-right: 10px;
 }
 .section {
@@ -781,7 +783,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-    font-size: 0.67rem;
+    font-size: 0.9rem;
     padding: 18px;
   }
   .section {
