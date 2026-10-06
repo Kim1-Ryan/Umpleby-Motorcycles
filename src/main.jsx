@@ -93,7 +93,7 @@ function App() {
               {label}
             </NavLink>
           ))}
-          <Button to="/bookings">Book a service ↗</Button>
+          <Button to="/bookings">Book a service</Button>
         </nav>
       </header>
       <main id="main" tabIndex={-1}>

@@ -80,7 +80,7 @@ function Home() {
             quality riding gear, and care from people who ride.
           </p>
           <div className="actions">
-            <Button to="/bikes">Explore motorcycles ↗</Button>
+            <Button to="/bikes">Explore motorcycles</Button>
             <Button to="/bookings" secondary>
               Book a service
             </Button>
