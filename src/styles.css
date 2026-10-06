@@ -960,6 +960,9 @@ footer {
 }
 
 .about-section {
+  max-width: none;
+  width: 100%;
+  padding-inline: max(5%, calc((100% - 1242px) / 2));
   background-size: cover;
   background-position: center;
 }
@@ -971,9 +974,8 @@ footer {
   place-items: center;
   padding: clamp(32px, 5vw, 72px);
   min-height: 320px;
-  border: 1px solid #ffffffb3;
-  border-radius: 8px;
-  background: #ffffffbd;
+  border: 0;
+  background: transparent;
 }
 .about-logo-panel img {
   width: min(100%, 420px);

@@ -361,7 +361,7 @@ function About() {
     <section
       className="section about-section"
       style={{
-        backgroundImage: `linear-gradient(90deg, #eaf3fbe8, #eaf3fbd9), url("${asset("beach view.jpg")}")`,
+        backgroundImage: `linear-gradient(90deg, #eaf3fbbd, #eaf3fba6), url("${asset("beach view.jpg")}")`,
       }}
     >
       <Intro title="Riders at heart.">
