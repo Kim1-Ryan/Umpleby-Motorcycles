@@ -115,8 +115,14 @@ nav {
   gap: 28px;
 }
 nav > a {
-  font-size: 0.88rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-block: 10px;
   color: #53647a;
+}
+nav > .button {
+  font-size: 1.1rem;
+  padding: 16px 26px;
 }
 nav > a.active {
   color: var(--blue);
