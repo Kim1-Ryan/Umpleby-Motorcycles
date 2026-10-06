@@ -256,14 +256,14 @@ nav > a.active {
   justify-content: space-around;
   gap: 20px;
   padding: 23px 5%;
-  background: var(--blue);
-  border-block: 1px solid var(--blue);
+  background: linear-gradient(110deg, #d9e9fc, #bdd8f7 55%, #dceafa);
+  border-block: 1px solid #aac9ed;
   font-size: 0.8rem;
-  color: white;
+  color: #123f78;
 }
 .trust-strip span:before {
   content: "✓";
-  color: white;
+  color: var(--blue);
   margin-right: 10px;
 }
 .section {
