@@ -358,16 +358,19 @@ function Contact() {
 }
 function About() {
   return (
-    <section className="section">
+    <section
+      className="section about-section"
+      style={{
+        backgroundImage: `linear-gradient(90deg, #eaf3fbe8, #eaf3fbd9), url("${asset("beach view.jpg")}")`,
+      }}
+    >
       <Intro title="Riders at heart.">
         Your local motorcycle people, with a passion for every journey.
       </Intro>
       <div className="split">
-        <img
-          className="feature-image"
-          src={asset("beach view.jpg")}
-          alt="Durban's coastal scenery"
-        />
+        <div className="about-logo-panel">
+          <img src={asset("logo.png")} alt="Umpleby Motorcycles" />
+        </div>
         <div className="panel">
           <span className="eyebrow">OUR STORY</span>
           <h2>

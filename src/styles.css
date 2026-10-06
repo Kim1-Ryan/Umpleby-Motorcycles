@@ -958,3 +958,25 @@ footer {
     scroll-behavior: auto !important;
   }
 }
+
+.about-section {
+  background-size: cover;
+  background-position: center;
+}
+.about-section .panel {
+  background: #ffffffeb;
+}
+.about-logo-panel {
+  display: grid;
+  place-items: center;
+  padding: clamp(32px, 5vw, 72px);
+  min-height: 320px;
+  border: 1px solid #ffffffb3;
+  border-radius: 8px;
+  background: #ffffffbd;
+}
+.about-logo-panel img {
+  width: min(100%, 420px);
+  height: auto;
+  object-fit: contain;
+}
