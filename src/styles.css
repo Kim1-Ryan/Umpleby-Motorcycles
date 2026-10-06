@@ -79,7 +79,7 @@ header {
   gap: 16px;
   color: var(--ink);
   font-weight: 900;
-  font-size: 2.1rem;
+  font-size: 3rem;
   letter-spacing: 0.12em;
   line-height: 1.15;
 }
@@ -93,7 +93,7 @@ header {
 .brand small {
   display: block;
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: 1.45rem;
   letter-spacing: 0.3em;
   margin-top: 6px;
 }
@@ -210,6 +210,21 @@ nav > a.active {
   font-size: 1.15rem;
   font-weight: 500;
   color: #18344f;
+}
+.hero .button {
+  min-height: 60px;
+  padding: 18px 28px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-width: 2px;
+  box-shadow: 0 5px 14px #07377920;
+}
+.hero .button.secondary {
+  background: #ffffffed;
+  border-color: var(--blue);
+}
+.hero .button.secondary:hover {
+  background: #e8f0fa;
 }
 .hero-bike {
   padding-top: 75px;
@@ -643,7 +658,7 @@ footer {
     padding-inline: calc((100% - 1240px) / 2);
   }
 }
-@media (min-width: 701px) and (max-width: 1100px) {
+@media (min-width: 701px) and (max-width: 1250px) {
   header {
     flex-wrap: wrap;
   }
@@ -699,12 +714,12 @@ footer {
     height: 90px;
   }
   .brand {
-    font-size: 1.35rem;
+    font-size: 1.9rem;
     letter-spacing: 0.07em;
     gap: 10px;
   }
   .brand small {
-    font-size: 0.72rem;
+    font-size: 0.95rem;
     letter-spacing: 0.24em;
   }
   .menu-toggle {
@@ -714,6 +729,9 @@ footer {
     background: white;
     padding: 10px;
     color: var(--ink);
+  }
+  .menu-toggle {
+    margin-left: auto;
   }
   nav {
     display: none;
