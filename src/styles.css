@@ -255,7 +255,7 @@ nav > a.active {
   display: flex;
   justify-content: space-around;
   gap: 20px;
-  padding: 23px 5%;
+  padding: 16px 5%;
   background: linear-gradient(110deg, #3474b9, #2869b0 55%, #3778bd);
   border-block: 1px solid #2b6db3;
   font-size: 1rem;
@@ -784,7 +784,7 @@ footer {
     justify-content: center;
     gap: 15px;
     font-size: 0.9rem;
-    padding: 18px;
+    padding: 12px 18px;
   }
   .section {
     padding: 45px 5%;

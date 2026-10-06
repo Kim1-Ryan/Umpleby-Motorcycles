@@ -65,9 +65,6 @@ function Home() {
           alt="Suzuki"
         />
         <div className="hero-copy">
-          <span className="eyebrow">
-            DURBAN, SOUTH AFRICA · AUTHORISED SUZUKI DEALERSHIP
-          </span>
           <h1>
             Suzuki motorcycles.
             <br />
