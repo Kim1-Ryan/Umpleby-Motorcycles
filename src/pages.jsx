@@ -60,17 +60,12 @@ function Home() {
     };
     const observer = new ResizeObserver(updateHeight);
     observer.observe(document.querySelector("header"));
-    observer.observe(hero.previousElementSibling);
+    observer.observe(document.querySelector(".trust-strip"));
     updateHeight();
     return () => observer.disconnect();
   }, []);
   return (
     <>
-      <div className="trust-strip">
-        <span>Authorised Suzuki dealership</span>
-        <span>Genuine Suzuki parts</span>
-        <span>Workshop expertise</span>
-      </div>
       <section className="hero" ref={heroRef}>
         <img
           className="hero-suzuki-banner"

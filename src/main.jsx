@@ -47,6 +47,13 @@ function App() {
       >
         Skip to content
       </a>
+      {location.pathname === "/" && (
+        <div className="trust-strip">
+          <span>Authorised Suzuki dealership</span>
+          <span>Genuine Suzuki parts</span>
+          <span>Workshop expertise</span>
+        </div>
+      )}
       <header>
         <Link className="brand" to="/" aria-label="Umpleby Motorcycles home">
           <img src={asset("logo.png")} alt="" />
