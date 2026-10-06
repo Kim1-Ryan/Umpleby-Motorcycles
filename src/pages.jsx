@@ -132,15 +132,44 @@ function Home() {
 }
 function ProductImage({ name, image }) {
   const [failed, setFailed] = useState(false);
+  const previewRef = useRef(null);
   return failed ? (
     <div className="image-fallback">Image coming soon</div>
   ) : (
-    <img
-      src={asset(image)}
-      alt={name}
-      loading="lazy"
-      onError={() => setFailed(true)}
-    />
+    <>
+      <button
+        className="product-image"
+        aria-label={`Enlarge image of ${name}`}
+        onClick={() => previewRef.current.showModal()}
+      >
+        <img
+          src={asset(image)}
+          alt={name}
+          loading="lazy"
+          onError={() => setFailed(true)}
+        />
+      </button>
+      <dialog
+        className="image-preview"
+        ref={previewRef}
+        aria-label={name}
+        onClick={(event) => {
+          if (event.target === event.currentTarget) previewRef.current.close();
+        }}
+      >
+        <div className="image-preview-content">
+          <button
+            className="image-preview-close"
+            aria-label="Close image preview"
+            onClick={() => previewRef.current.close()}
+          >
+            Close ✕
+          </button>
+          <img src={asset(image)} alt={name} />
+          <p>{name}</p>
+        </div>
+      </dialog>
+    </>
   );
 }
 function Catalogue({ type }) {
