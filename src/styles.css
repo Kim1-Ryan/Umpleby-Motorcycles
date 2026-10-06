@@ -80,7 +80,7 @@ header {
   color: var(--ink);
   font-weight: 900;
   font-size: 2.1rem;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.12em;
   line-height: 1.15;
 }
 .brand img {
@@ -94,7 +94,7 @@ header {
   display: block;
   font-weight: 600;
   font-size: 1.05rem;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.3em;
   margin-top: 6px;
 }
 nav {
@@ -206,8 +206,10 @@ nav > a.active {
   font-style: italic;
 }
 .hero p {
-  max-width: 420px;
-  font-size: 1rem;
+  max-width: 460px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #18344f;
 }
 .hero-bike {
   padding-top: 75px;
@@ -228,11 +230,12 @@ nav > a.active {
 }
 .bike-caption {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 28px 10px 0;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 600;
   letter-spacing: 0.14em;
-  color: #41617f;
+  color: #213f5c;
 }
 .trust-strip {
   display: flex;
@@ -697,10 +700,12 @@ footer {
   }
   .brand {
     font-size: 1.35rem;
+    letter-spacing: 0.07em;
     gap: 10px;
   }
   .brand small {
     font-size: 0.72rem;
+    letter-spacing: 0.24em;
   }
   .menu-toggle {
     display: block;
@@ -756,7 +761,7 @@ footer {
     font-size: 4rem;
   }
   .bike-caption {
-    font-size: 0.55rem;
+    font-size: 0.7rem;
     padding-top: 10px;
   }
   .trust-strip {

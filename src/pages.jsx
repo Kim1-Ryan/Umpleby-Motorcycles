@@ -88,7 +88,6 @@ function Home() {
             alt="White Suzuki GSX-R motorcycle"
           />
           <div className="bike-caption">
-            <span>BUILT FOR THE RIDE</span>
             <span>GSX-R / SUZUKI</span>
           </div>
         </div>
