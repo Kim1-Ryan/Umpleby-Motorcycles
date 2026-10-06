@@ -199,8 +199,13 @@ function App() {
               {label}
             </Link>
           ))}
-          <a href="https://suzukimotorcycle.co.za">Suzuki SA ↗</a>
           <a href="https://surl.lu/hjxhdz">Review us ↗</a>
+          <a
+            className="footer-suzuki-link"
+            href="https://suzukimotorcycle.co.za"
+          >
+            Suzuki SA ↗
+          </a>
         </div>
         <div className="footer-bottom">
           <span>

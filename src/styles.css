@@ -619,10 +619,13 @@ footer {
   color: #d0dcea;
 }
 .footer-top {
+  position: relative;
   display: flex;
   justify-content: space-between;
   gap: 20px;
   align-items: center;
+  min-height: 100px;
+  padding-right: 120px;
 }
 .footer-top h2 {
   font-size: 2rem;
@@ -631,6 +634,10 @@ footer {
   color: #92aac3;
 }
 .footer-top img {
+  position: absolute;
+  top: -46px;
+  right: 12.5px;
+  width: 75px;
   max-width: 75px;
   max-height: 100px;
   object-fit: contain;
@@ -646,6 +653,11 @@ footer {
 }
 .footer-links a {
   color: #d0dcea;
+}
+.footer-links .footer-suzuki-link {
+  margin-left: auto;
+  flex: 0 0 100px;
+  text-align: center;
 }
 .footer-bottom {
   display: flex;
