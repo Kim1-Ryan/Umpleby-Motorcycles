@@ -1015,11 +1015,11 @@ footer {
 
 @media (min-width: 701px) {
   header {
-    padding-right: max(12px, calc(4% - 44px));
+    padding-right: max(8px, calc(4% - 68px));
   }
 }
 @media (min-width: 1500px) {
   header {
-    padding-right: calc((100% - 1320px) / 2 - 44px);
+    padding-right: max(8px, calc((100% - 1320px) / 2 - 68px));
   }
 }
