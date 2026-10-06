@@ -10,7 +10,7 @@ const categories = [
     "Find your next ride.",
     "transparentBG gsxr1000white.png",
   ],
-  ["gear", "Riding gear", "Ready for the road.", "transparentBG hjc i71.png"],
+  ["gear", "Riding gear", "Safety first.", "transparentBG hjc i71.png"],
   [
     "accessories",
     "Accessories",
