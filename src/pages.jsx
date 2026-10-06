@@ -196,9 +196,7 @@ function Catalogue({ type }) {
               </span>
               <h2>{p.name}</h2>
               <div className="product-bottom">
-                <span>
-                  {type === "bikes" ? `Model year ${p.price}` : p.price}
-                </span>
+                <span>{p.price}</span>
                 <Link to={`/contact?product=${encodeURIComponent(p.name)}`}>
                   Enquire ↗
                 </Link>
