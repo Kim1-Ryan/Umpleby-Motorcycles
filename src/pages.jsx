@@ -64,11 +64,9 @@ function Home() {
             DURBAN, SOUTH AFRICA · AUTHORISED SUZUKI DEALERSHIP
           </span>
           <h1>
-            Your next
+            Suzuki motorcycles.
             <br />
-            chapter.
-            <br />
-            <em>On two wheels.</em>
+            <em>Expert care.</em>
           </h1>
           <p>
             The solution to all your moto needs. Discover Suzuki motorcycles,
