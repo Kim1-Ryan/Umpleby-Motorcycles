@@ -53,6 +53,11 @@ function Categories() {
 function Home() {
   return (
     <>
+      <div className="trust-strip">
+        <span>Authorised Suzuki dealership</span>
+        <span>Genuine Suzuki parts</span>
+        <span>Workshop expertise</span>
+      </div>
       <section className="hero">
         <img
           className="hero-suzuki-banner"
@@ -89,11 +94,6 @@ function Home() {
           </div>
         </div>
       </section>
-      <div className="trust-strip">
-        <span>Authorised Suzuki dealership</span>
-        <span>Genuine Suzuki parts</span>
-        <span>Workshop expertise</span>
-      </div>
       <section className="section">
         <div className="section-heading">
           <div>
