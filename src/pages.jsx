@@ -37,13 +37,10 @@ function Intro({ eyebrow = "UMPLEBY MOTORCYCLES", title, children }) {
 function Categories() {
   return (
     <div className="grid categories">
-      {categories.map(([slug, title, description, image], i) => (
+      {categories.map(([slug, title, description, image]) => (
         <Link className="category-card" to={`/${slug}`} key={slug}>
-          <span className="eyebrow">0{i + 1} / THE COLLECTION</span>
           <img src={asset(image)} alt="" />
-          <h3>
-            {title} <span>↗</span>
-          </h3>
+          <h3>{title}</h3>
           <p>{description}</p>
         </Link>
       ))}
