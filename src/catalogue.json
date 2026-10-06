@@ -1,0 +1,447 @@
+{
+  "bikes": [
+    {
+      "id": "bikes-0",
+      "image": "GSX150F-Blu.jpg",
+      "name": "Suzuki GSX150F (blue, white)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-1",
+      "image": "GSX150F blk.png",
+      "name": "Suzuki GSX150F (black)",
+      "price": "2026",
+      "status": "Currently Unavailable"
+    },
+    {
+      "id": "bikes-2",
+      "image": "green-grey-sf-150.png",
+      "name": "Suzuki GSX150F (green, grey)",
+      "price": "2026",
+      "status": "Only 1 left"
+    },
+    {
+      "id": "bikes-3",
+      "image": "GSX150D-Blue-.png",
+      "name": "Suzuki GSX150D (blue)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-4",
+      "image": "GSX150D-BLK-.png",
+      "name": "Suzuki GSX150D (black, red)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-5",
+      "image": "Gixer-Black-250-right-2048x1365.jpg",
+      "name": "Suzuki GSX250F (black)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-6",
+      "image": "gsx250f red.jpg",
+      "name": "Suzuki GSX250F (red)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-7",
+      "image": "gsx250d blk.jpg",
+      "name": "Suzuki GSX250D (black)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-8",
+      "image": "V-STROM-250SX black.jpg",
+      "name": "Suzuki V-Strom 250SX (black)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-9",
+      "image": "V-STROM-250SX red.jpg",
+      "name": "Suzuki V-Strom 250SX (red)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-10",
+      "image": "V-STROM-250SX yellow.jpg",
+      "name": "Suzuki V-Strom 250SX (yellow)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-11",
+      "image": "GSX-R750 white and blue.jpg",
+      "name": "Suzuki GSX750 (white, blue)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-12",
+      "image": "GSX-R750 red and black.jpg",
+      "name": "Suzuki GSX750 (black, red)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-13",
+      "image": "GSX-8R BLUE.jpg",
+      "name": "Suzuki GSX-8R (blue)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-14",
+      "image": "GSX-8R BLACK.jpg",
+      "name": "Suzuki GSX-8R (black, red)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-15",
+      "image": "GSX-8R ORANGE.jpg",
+      "name": "Suzuki GSX-8R (orange)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-16",
+      "image": "GSX-8R WHITE.jpg",
+      "name": "Suzuki GSX-8R (white)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-17",
+      "image": "GSX-8S blue.jpg",
+      "name": "Suzuki GSX-8S (blue)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-18",
+      "image": "GSX-8S black.jpg",
+      "name": "Suzuki GSX-8S (black)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-19",
+      "image": "GSX-8S white.jpg",
+      "name": "Suzuki GSX-8S (white)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-20",
+      "image": "GSX-8T Candy-Burnt-Gold.jpg",
+      "name": "Suzuki GSX-8T (Candy-Burnt-Gold)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-21",
+      "image": "GSX-8T Metallic-Mat-Black.jpg",
+      "name": "Suzuki GSX-8T (Metallic-Matte-Black)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-22",
+      "image": "GSX-8T Metallic-Mat-Steel-Green.jpg",
+      "name": "Suzuki GSX-8T (Metallic-Matte-Steel-Green)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-23",
+      "image": "GSX-8TT Glass-Sparkle-Black.jpg",
+      "name": "Suzuki GSX-8TT (Glass-Sparkle-Black)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-24",
+      "image": "GSX-8TT Pearl-Mat-Shadow-Green.jpg",
+      "name": "Suzuki GSX-8TT (Pearl-Matte-Shadow-Green)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-25",
+      "image": "GSX-R1000A blue, white.jpg",
+      "name": "Suzuki GSX-R1000A (blue, white)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-26",
+      "image": "GSX-R1000A red, black.jpg",
+      "name": "Suzuki GSX-R1000A (red, black)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-27",
+      "image": "GSX-R1000RA blue, white.png",
+      "name": "Suzuki GSX-R1000RA (blue, white)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-28",
+      "image": "GSX-S1000GX silver.jpg",
+      "name": "Suzuki GSX-S1000GX (silver)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-29",
+      "image": "GSX-S1000GX blue.jpg",
+      "name": "Suzuki GSX-S1000GX (blue)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-30",
+      "image": "GSX-S1000GX black.jpg",
+      "name": "Suzuki GSX-S1000GX (black)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-31",
+      "image": "Hayabusa Blue, white.jpg",
+      "name": "Suzuki Hayabusa (blue, white)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-32",
+      "image": "hayabusa black, red.jpg",
+      "name": "Suzuki Hayabusa (black, red)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-33",
+      "image": "hayabusa grey, orange.jpg",
+      "name": "Suzuki Hayabusa (grey, orange)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-34",
+      "image": "hayabusa white.jpg",
+      "name": "Suzuki Hayabusa (white)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-35",
+      "image": "Burgman blue-scooter.jpg",
+      "name": "Suzuki Burgman (blue)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-36",
+      "image": "Burgman white-scooter.jpg",
+      "name": "Suzuki Burgman (white)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-37",
+      "image": "Bergman black-scooter.jpg",
+      "name": "Suzuki Burgman (black)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-38",
+      "image": "Bergman Moonstone-grey-scooter.jpg",
+      "name": "Suzuki Burgman (Moonstone grey)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-39",
+      "image": "Avenis red-seat.png",
+      "name": "Suzuki Avenis (grey, red/orange)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-40",
+      "image": "Avenis white.png",
+      "name": "Suzuki Avenis (white)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-41",
+      "image": "LT-A400D-LT-F400F RED.jpg",
+      "name": "Suzuki LT-A400D/LT-F400F (red)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-42",
+      "image": "LT-A400D-LT-F400F GREEN.jpg",
+      "name": "Suzuki LT-A400D/LT-F400F (green)",
+      "price": "2026",
+      "status": "Available"
+    },
+    {
+      "id": "bikes-43",
+      "image": "LT-A650XL RED.jpg",
+      "name": "Suzuki LT-A650XL (red)",
+      "price": "2026",
+      "status": "Available"
+    }
+  ],
+  "gear": [
+    {
+      "id": "gear-0",
+      "image": "i71 blue, red, white.webp",
+      "name": "HJC i71 Helmet (blue, red, white)",
+      "price": "R 2870.00",
+      "status": "In Stock"
+    },
+    {
+      "id": "gear-1",
+      "image": "i71 grey, white, yellow.avif",
+      "name": "HJC i71 Helmet (grey, white, yellow)",
+      "price": "R 2870.00",
+      "status": "Out of Stock"
+    },
+    {
+      "id": "gear-2",
+      "image": "i71 matte yellow, orange, red.avif",
+      "name": "HJC i71 Helmet (matte yellow, orange, red)",
+      "price": "R 2870.00",
+      "status": "Only 1 left"
+    },
+    {
+      "id": "gear-3",
+      "image": "flip-up x4.jpg",
+      "name": "MT Genesis Flip-Up SV Helmet (black/white)",
+      "price": "R 2710.00",
+      "status": "In Stock"
+    },
+    {
+      "id": "gear-4",
+      "image": "alpine gloves.jpg",
+      "name": "Alpine Gloves (black, armored knuckles)",
+      "price": "R 1500.00",
+      "status": "In Stock"
+    },
+    {
+      "id": "gear-5",
+      "image": "alpine hoodie.jpg",
+      "name": "Alpine Hoodie (black)",
+      "price": "R 3200.00",
+      "status": "Currently UnIn Stock"
+    },
+    {
+      "id": "gear-6",
+      "image": "bull-it men's tactical jeans.webp",
+      "name": "Bull-It Men's Tactical Jeans",
+      "price": "R 1700.00",
+      "status": "Only 1 left"
+    },
+    {
+      "id": "gear-7",
+      "image": "dainese_nexus2_boots_red_750x750.jpg",
+      "name": "Dainese Nexus 2 Boots",
+      "price": "R 4200.00",
+      "status": "In Stock"
+    },
+    {
+      "id": "gear-8",
+      "image": "rst men's boots.jpg",
+      "name": "RST Boots",
+      "price": "R 3300.00",
+      "status": "In Stock"
+    }
+  ],
+  "accessories": [
+    {
+      "id": "accessories-0",
+      "image": "top box, blk.jpg",
+      "name": "Top Box (black)",
+      "price": "R 2990.00",
+      "status": "In Stock"
+    },
+    {
+      "id": "accessories-1",
+      "image": "top box, silver.jpg",
+      "name": "Top Box (silver)",
+      "price": "R 2990.00",
+      "status": "Out of Stock"
+    },
+    {
+      "id": "accessories-2",
+      "image": "waterproof bike-cover.jpg",
+      "name": "Waterproof Bike Cover (with tyre lock)",
+      "price": "R 720.00",
+      "status": "Only 1 left"
+    },
+    {
+      "id": "accessories-3",
+      "image": "windscreen, small.jpg",
+      "name": "Windscreen extender",
+      "price": "R 1400.00",
+      "status": "In Stock"
+    },
+    {
+      "id": "accessories-4",
+      "image": "2-piece paddock stand.jpg",
+      "name": "2-Piece Paddock Stand",
+      "price": "R 2300.00",
+      "status": "Out of Stock"
+    },
+    {
+      "id": "accessories-5",
+      "image": "bluetooth helmet headset.jpg",
+      "name": "Bluetooth Helmet-Headset",
+      "price": "R 780.00",
+      "status": "In Stock"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What do I need to purchase a motorcycle?",
+      "answer": "You will mainly need a valid motorcycle license/learner's permit, proof of address, and 3 months of bank statements. There are slight variations in requirements depending on how you plan to pay."
+    },
+    {
+      "question": "Will I need to license my motorcycle myself?",
+      "answer": "You may complete licensing yourself, or we can assist you with the process. Skip the queues and simply select 'licensing' as an add-on to your purchase with us."
+    },
+    {
+      "question": "Do you offer financing options?",
+      "answer": "You may apply for private finance or finance through your company. These require different applications and documentation."
+    },
+    {
+      "question": "Do you take trade-ins?",
+      "answer": "We do accept trade-ins for eligible motorcycles. Please contact us for more information and to discuss the details of your trade-in."
+    },
+    {
+      "question": "Do I have to have a motorcycle license to purchase a motorcycle?",
+      "answer": "A valid motorcycle license is required if you choose to finance. Cash purchases do not require a license."
+    },
+    {
+      "question": "How long is the warranty on a new motorcycle?",
+      "answer": "Our new motorcycles come with a standard manufacturer's warranty that typically covers your bike for a period of two years from the date of purchase."
+    }
+  ]
+}
