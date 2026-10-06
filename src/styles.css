@@ -90,6 +90,10 @@ header {
   border-radius: 50%;
   object-fit: contain;
 }
+.brand:hover {
+  color: var(--ink);
+  text-decoration: none;
+}
 .brand-wordmark {
   width: 5.7em;
   flex-shrink: 0;
