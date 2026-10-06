@@ -48,10 +48,19 @@ function App() {
         Skip to content
       </a>
       <header>
-        <Link className="brand" to="/">
-          <img src={asset("logo.png")} alt="Umpleby Motorcycles home" />
-          <span>
-            UMPLEBY<small>MOTORCYCLES</small>
+        <Link className="brand" to="/" aria-label="Umpleby Motorcycles home">
+          <img src={asset("logo.png")} alt="" />
+          <span className="brand-wordmark" aria-hidden="true">
+            <span className="brand-line">
+              {[..."UMPLEBY"].map((letter, index) => (
+                <span key={index}>{letter}</span>
+              ))}
+            </span>
+            <small className="brand-line">
+              {[..."MOTORCYCLES"].map((letter, index) => (
+                <span key={index}>{letter}</span>
+              ))}
+            </small>
           </span>
         </Link>
         <button

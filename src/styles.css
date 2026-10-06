@@ -90,8 +90,16 @@ header {
   border-radius: 50%;
   object-fit: contain;
 }
+.brand-wordmark {
+  width: 5.7em;
+  flex-shrink: 0;
+}
+.brand .brand-line {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 0;
+}
 .brand small {
-  display: block;
   font-weight: 600;
   font-size: 1.45rem;
   letter-spacing: 0.3em;
