@@ -69,7 +69,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background: #fff;
-  padding: 17px 5%;
+  padding: 17px 4%;
   border-bottom: 1px solid var(--line);
   gap: 24px;
 }
@@ -743,7 +743,7 @@ footer {
     padding-inline: calc((100% - 1240px) / 2);
   }
   header {
-    padding-inline: calc((100% - 1240px) / 2);
+    padding-inline: calc((100% - 1320px) / 2);
   }
 }
 @media (min-width: 701px) and (max-width: 1250px) {
