@@ -242,15 +242,6 @@ nav > a.active {
   position: relative;
   filter: drop-shadow(0 22px 14px #14263d22);
 }
-.hero-word {
-  position: absolute;
-  top: 15px;
-  left: 0;
-  font-size: clamp(3rem, 7vw, 8rem);
-  font-weight: 900;
-  color: #a3bad844;
-  letter-spacing: -0.07em;
-}
 .bike-caption {
   display: flex;
   justify-content: flex-end;
@@ -781,10 +772,6 @@ footer {
     max-width: 480px;
     margin: auto;
     width: 100%;
-  }
-  .hero-word {
-    top: 5px;
-    font-size: 4rem;
   }
   .bike-caption {
     font-size: 0.7rem;

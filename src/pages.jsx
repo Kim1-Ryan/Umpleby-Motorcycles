@@ -80,7 +80,6 @@ function Home() {
           </div>
         </div>
         <div className="hero-bike">
-          <span className="hero-word">SUZUKI</span>
           <img
             src={asset("transparentBG gsxr1000white.png")}
             alt="White Suzuki GSX-R motorcycle"
